@@ -21,8 +21,8 @@ Este projeto demonstra um fluxo completo de CI/CD com GitOps para aplicações c
 
 Fluxo:
 [App Repo] → [CI Pipeline] → [Docker Hub]
-                  ↓
-           [GitOps Repo] → [Argo CD] → [Cluster]
+                   ↓
+          [GitOps Repo] → [Argo CD] → [Cluster]
 
 Este projeto integra práticas modernas de DevOps e GitOps, servindo como estudo e vitrine de automação de deploys em Kubernetes.
 Em um cenário real, incluiríamos um processo CI/CD intermediário para provisionamento de infraestrutura como código (IaC) com Terraform, utilizando os providers AWS e Helm. Esse pipeline seria responsável por criar e gerenciar um cluster EKS com recursos avançados como HPA e Karpenter para otimização de custos e escalabilidade, além da integração contínua com o Argo CD para entrega automatizada das aplicações.

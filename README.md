@@ -24,5 +24,6 @@ Fluxo:
                    ↓
           [GitOps Repo] → [Argo CD] → [Cluster]
 
-Este projeto integra práticas modernas de DevOps e GitOps, servindo como estudo e vitrine de automação de deploys em Kubernetes.
-Em um cenário real, incluiríamos um processo CI/CD intermediário para provisionamento de infraestrutura como código (IaC) com Terraform, utilizando os providers AWS e Helm. Esse pipeline seria responsável por criar e gerenciar um cluster EKS com recursos avançados como HPA e Karpenter para otimização de custos e escalabilidade, além da integração contínua com o Argo CD para entrega automatizada das aplicações.
+Nota Importante
+Este portfólio apresenta um fluxo simplificado de CI/CD e GitOps para fins de demonstração. Elementos essenciais em ambientes de produção, como segurança segregada (RBAC, políticas de rede, gestão de segredos), observabilidade (monitoramento, métricas, tracing e logging estruturado) e Service Mesh (para controle de tráfego, segurança e visibilidade entre serviços), não foram incluídos aqui para manter o foco na automação de deploys.
+Em implementações reais, tais componentes seriam incorporados juntamente com infraestrutura como código (IaC), garantindo confiabilidade, segurança e visibilidade operacional em escala.

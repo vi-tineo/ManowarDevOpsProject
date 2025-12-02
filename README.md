@@ -27,3 +27,9 @@ Fluxo:
 Nota Importante
 Este portfólio apresenta um fluxo simplificado de CI/CD e GitOps para fins de demonstração. Elementos essenciais em ambientes de produção, como segurança segregada (RBAC, políticas de rede, gestão de segredos), observabilidade (monitoramento, métricas, tracing e logging estruturado) e Service Mesh (para controle de tráfego, segurança e visibilidade entre serviços), não foram incluídos aqui para manter o foco na automação de deploys.
 Em implementações reais, tais componentes seriam incorporados juntamente com infraestrutura como código (IaC), garantindo confiabilidade, segurança e visibilidade operacional em escala.
+
+## Argo CD em ação
+
+A imagem abaixo mostra o Argo CD sincronizando a aplicação `manowar` com o repositório GitOps, validando o fluxo proposto neste projeto:
+
+<img width="1148" height="363" alt="Screenshot 2025-12-02 120543" src="https://github.com/user-attachments/assets/83f3e410-1450-47df-b9a0-5a083ca6704c" />
